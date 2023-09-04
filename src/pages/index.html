@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="header__menu-hamburguer" class="container__imgs"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">PROGRAMAÇÃO</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">FRONT-END</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">INFRAESTRUTURA</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">BUSINESS</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">DESIGN & UX</a>
+            </li>
+        </ul>
+            <img src="/src/assets/Logo.svg" alt="Logo" class="container__imgs"></a>
+        </div>
+        <div class="container">
+            <a href="#"><img src="/src/assets/Favoritos.svg" alt="Coração de Favoritos" class="container__imgs "></a>
+            <a href="#"><img src="/src/assets/Compras.svg" alt="Sacola de compras" class="container__imgs"></a>
+            <a href="#"><img src="/src/assets/Usuario.svg" alt="Usuario"class="container__imgs"></a>
+        </div>        
+    </header>
+
+    <section class="banner">
+        <h2>Já sabe por onde começar?</h2>
+        <p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input class="banner__pesquisa" type="search" name="" id="" placeholder="Qual será sua próxima leitura?">
+    </section>
+
+    <section class="carrossel">
+        <h2>NOVOS LANÇAMENTOS</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"> <img src="../assets/Gestão2.svg" alt="Gestão2"> </div>
+      <div class="swiper-slide"> <img src="../assets/ApacheKafka.svg" alt="ApacheKafka"> </div>
+      <div class="swiper-slide"> <img src="../assets/Nodejs.svg" alt="Nodejs"> </div>
+      <div class="swiper-slide"> <img src="../assets/Tuning.svg" alt="Tuning"> </div>
+      <div class="swiper-slide"> <img src="../assets/Angular.svg" alt="Angular"> </div>
+      <div class="swiper-slide"> <img src="../assets/Guia Front-end.svg" alt="Guia"> </div>
+      <div class="swiper-slide"> <img src="../assets/MetricasAgeis.svg" alt="MetricasAgeis"> </div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+    </section>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+
+</html>

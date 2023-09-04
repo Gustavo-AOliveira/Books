@@ -1,0 +1,16 @@
+@import url(/src/styles/header.css);
+@import url(../styles/banner.css);
+@import url(../styles/carrossel.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+:root {
+    --cor-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --cor-cenoura: #EB9B00;
+    --cor-azul:#002F52;
+    --font-hamburguer:'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}

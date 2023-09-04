@@ -1,0 +1,9 @@
+.carrossel {
+    color: var(--cor-cenoura);
+    background: var(--branco);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-hamburguer);
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+}
