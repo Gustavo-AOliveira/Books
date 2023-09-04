@@ -6,7 +6,6 @@ Este projeto é focado exclusivamente no design de uma livraria online. Ele demo
 
 - HTML
 - CSS
-- JavaScript
 - [Swiper.js](https://swiperjs.com/): Uma biblioteca de slider e carrossel que facilita a criação de interfaces deslizantes interativas.
 
 ## Prática de "Mobile First"
