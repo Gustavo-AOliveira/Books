@@ -25,6 +25,3 @@ Este design segue a abordagem "mobile first", o que significa que a prioridade f
 
 [Gustavo Aquino de Oliveira]
 
-## Licença
-
-Este projeto não possui uma licença específica e é apenas para fins de demonstração de design.
